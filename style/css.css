@@ -41,7 +41,7 @@ p {
 }
 
 .carousel-text {
-    padding: 12em !important;
+    padding: 12rem;
 }
 
 @media only screen and (max-width: 900px){
