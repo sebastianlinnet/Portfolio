@@ -25,7 +25,7 @@ h3 {
     font-family: "Arial Black";
     font-size: 2.5em;
     letter-spacing: -5px;
-    color: #f0ffff;
+    color: #312f2f;
     margin-top: 0;
 }
 
@@ -42,14 +42,18 @@ p {
 
 .carousel-text {
     padding: 12rem;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
 }
+
 
 @media only screen and (max-width: 900px){
     .carousel {
         min-height: 100vh;
     }
     .carousel-text{
-      padding: 4em;
+      padding: 2em;
     }
   }
 
