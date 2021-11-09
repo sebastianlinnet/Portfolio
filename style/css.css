@@ -2,7 +2,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    background: #f9dbbd;
+    background: #EDE6E3;
   }
 
 h1 {
@@ -57,22 +57,25 @@ p {
     }
   }
 
-  /* om mig*/
-  .om-mig {
-      height: 60vh;
-      padding: 12em;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      display: flex;
-  }
+/* om mig*/
+.om-mig {
+    min-height: 60vh;
+    padding: 12em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+}
 
-  .om-mig-left {
-      width: 70%;
-  }
+.om-mig-left {
+    width: 70%;
+}
 
-  .om-mig-right {
-      width: 30%;
-  }
+.om-mig-right {
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1em;
+    background: #f0ffff;
+}
   @media only screen and (max-width: 900px){
     .om-mig{
       padding: 2em;
@@ -88,3 +91,7 @@ p {
     }
   }
 
+/* projects */
+
+
+/* kontakt */
