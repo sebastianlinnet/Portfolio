@@ -21,8 +21,66 @@ h2 {
     margin-top: 0;
 }
 
+h3 {
+    font-family: "Arial Black";
+    font-size: 2.5em;
+    letter-spacing: -5px;
+    color: #f0ffff;
+    margin-top: 0;
+}
+
+p {
+    font-family: "Arial";
+    color: #312f2f;
+}
+
 /* header */
 .carousel {
-    height: 100vh;
+    min-height: 100vh;
     background: #CF5C36;
 }
+
+.carousel-text {
+    padding: 12em;
+}
+
+@media only screen and (max-width: 900px){
+    .carousel {
+        min-height: 100vh;
+    }
+    .carousel-text{
+      padding: 4em;
+    }
+  }
+
+  /* om mig*/
+  .om-mig {
+      height: 60vh;
+      padding: 12em;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      display: flex;
+  }
+
+  .om-mig-left {
+      width: 70%;
+  }
+
+  .om-mig-right {
+      width: 30%;
+  }
+  @media only screen and (max-width: 900px){
+    .om-mig{
+      padding: 2em;
+      flex-direction: column;
+    }
+
+    .om-mig-left {
+        width: 100%;
+    }
+
+    .om-mig-right {
+        width: 100%;
+    }
+  }
+
