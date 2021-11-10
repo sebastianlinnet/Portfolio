@@ -80,13 +80,14 @@ p {
   @media only screen and (max-width: 1100px){
     .om-mig{
       padding: 2em;
+      padding-bottom: 5em;
       flex-direction: column;
     }
 
     .om-mig-left {
         width: 100%;
         padding-top: 5em;
-        padding-bottom: 5em;
+        padding-bottom: 2em;
     }
 
     .om-mig-right {
