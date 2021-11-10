@@ -131,7 +131,6 @@ p {
     }
 
     .projects{
-      padding: 2em;
       flex-direction: column;
     }
 
