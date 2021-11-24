@@ -35,6 +35,10 @@ p {
     color: #343434;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /* header */
 .carousel {
     min-height: 100vh;
