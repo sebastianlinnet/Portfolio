@@ -35,8 +35,13 @@ p {
     color: #343434;
 }
 
+a {
+    color: #f0ffff;
+}
+
 a:hover {
     text-decoration: none;
+    color: #343434
 }
 
 /* header */
