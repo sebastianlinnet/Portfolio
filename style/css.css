@@ -37,6 +37,7 @@ p {
 
 a {
     color: #f0ffff;
+    transition: ease-in-out 200ms;
 }
 
 a:hover {
@@ -177,7 +178,7 @@ a:hover {
 }
 
 .img-hover-zoom:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .project-pic {
@@ -192,7 +193,7 @@ a:hover {
     padding-left:12em;
     padding-right:12em;
     padding-top: 4em;
-    padding-bottom:20em;
+    padding-bottom:12em;
 }
 
 .contact {
