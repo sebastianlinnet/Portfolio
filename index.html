@@ -12,7 +12,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/bbe27ab0c5.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style\css.css" />
+    <script defer src="script/script.js"></script>
     <title>Sebastian Linnet • Portfolio</title>
 </head>
 
@@ -41,18 +43,18 @@
             </div>
         </nav>
         <div class="carousel-text">
-            <h2>Mit navn er Sebastian.
+            <h2>Mit navn er <span id="navn"></span></span>
                 <br>Jeg er frontend web developer <i class="fas fa-laptop-code"></i>
             </h2>
         </div>
     </div>
     <div class="main">
+        <a id="om-mig"></a>
         <div class="om-mig">
             <div class="om-mig-left">
                 <i class="far fa-address-card fa-3x" style="color: #343434; float: left; margin-right: 5px;"></i>
-                <a name="om-mig">
+                
                     <h3 style="display: block;">Om mig</h3>
-                </a>
                 <p>Frontend passioneret datamatiker studerende på Zealand Roskilde.</p>
                 <p>Jeg elsker at bringe ting til live i browseren, med et øje for detaljen.</p>
                 <p>Kreativt menneske der elsker nye udfordringer og har masser af gå på mod.</p>
@@ -78,7 +80,6 @@
                         <li>Visual Studio 2019</li>
                         <li>Shopify</li>
                         <li>Bootstrap</li>
-                        <li>WordPress</li>
                         <li>Font Awesome</li>
                         <li>Razor Pages</li>
                         <li>GitHub</li>
@@ -88,7 +89,7 @@
             </div>
         </div>
         <div class="projects-wrap">
-            <a name="projekter">
+            <a id="projekter">
                 <h3 style="color:#f0ffff;"><i class="fas fa-tasks"></i> Projekter</h3>
             </a>
 
@@ -205,7 +206,7 @@
 
         </div>
         <div class="contact-wrap">
-            <a name="kontakt">
+            <a id="kontakt">
                 <h3><i class="fas fa-calendar-check"></i> Kontakt</h3>
             </a>
             <div class="contact">
