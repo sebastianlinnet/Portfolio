@@ -11,7 +11,11 @@ function typeWriter() {
   }
 }
 
-typeWriter()
+function typeWriterAwait() {
+  setTimeout(typeWriter, 500);
+ }
+
+ typeWriterAwait(); 
 
 //smooth scroll
 $('a').click(function(){
