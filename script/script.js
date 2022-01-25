@@ -1,6 +1,6 @@
 //typewriter
 var i = 0;
-var txt = 'Sebastian.';
+var txt = ' Sebastian.';
 var speed = 150;
 
 function typeWriter() {
