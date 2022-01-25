@@ -1,11 +1,11 @@
 //typewriter
 var i = 0;
-var txt = ' Sebastian.';
+var text = ' frontend';
 var speed = 150;
 
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("navn").innerHTML += txt.charAt(i);
+  if (i < text.length) {
+    document.getElementById("navn").innerHTML += text.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
